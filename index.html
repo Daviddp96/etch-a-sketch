@@ -12,8 +12,11 @@
         <section>
             <aside class="controls">
                 <label>NxN</label>
-                <input type="number" >
-                <button id="changebtn">Resize grid!</button>
+                <input type="number" min="1" max="64">
+                <button class="btn" id="resize-btn">Resize grid!</button>
+                <button class="btn" id="clear-btn">Clear</button>
+                <button class="btn active" id="color-mode-btn">Color</button>
+                <button class="btn" id="random-mode-btn">Random</button>
             </aside>
             <div class="sketchpad" id="sketchpad">
             </div>
